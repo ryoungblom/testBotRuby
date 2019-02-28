@@ -65,11 +65,7 @@ bot.listen do |message|
     bot.api.send_message(chat_id: message.chat.id, text: "I have no idea what that means...", reply_markup: answers)
   end
 
-
-
   end
-
-
 
 end
 
